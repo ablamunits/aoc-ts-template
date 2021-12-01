@@ -1,19 +1,13 @@
-import { solve } from './solution';
-import { puzzleInput } from './input';
+import { solveP1, solveP2 } from './solution';
 
-describe.skip('Thing', () => {
-  it('Scenario 1', () => {
+describe('Thing', () => {
+  it.skip('Solves for part 1 example input', () => {
     // TODO: Solve for example part 1
-    expect(solve('Some input')).toEqual('Some answer');
+    expect(solveP1('Some input')).toEqual('Some answer');
   });
 
-  it('Scenario 2', () => {
+  it.skip('Solves for part 2 example input', () => {
     // TODO: Solve for example part 2
-    expect(solve('Some input')).toEqual('Some answer');
-  });
-
-  it('Solution!', () => {
-    // TODO: Solve for your input
-    console.log(solve(puzzleInput));
+    expect(solveP2('Some input')).toEqual('Some answer');
   });
 });
